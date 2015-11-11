@@ -1,0 +1,36 @@
+{
+  "name": "indexical-projects",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --ui bdd tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indexical/projects.git"
+  },
+  "keywords": [
+    "indexical"
+  ],
+  "author": "James Snowden",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Indexical/projects/issues"
+  },
+  "homepage": "https://github.com/Indexical/projects#readme",
+  "dependencies": {
+    "ajv": "^1.4.9",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-jwt": "^3.1.0",
+    "node-uuid": "^1.4.3",
+    "rethinkdbdash": "^2.1.17"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.9.0",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
+  }
+}

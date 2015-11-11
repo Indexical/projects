@@ -1,0 +1,26 @@
+{
+    "title": "Project",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "readOnly": true
+        },
+        "title": {
+            "type": "string",
+            "maxLength": 80
+        },
+        "description": {
+            "type": "string"
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+        }
+    },
+    "required": [
+        "title"
+    ],
+    "additionalProperties": false
+}
