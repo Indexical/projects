@@ -1,5 +1,8 @@
 
 module.exports = function(error, request, response, next) {
+    console.log('------- error ----------');
+    console.log(error);
+    console.log(' headers sent ? ' + response.headersSent);
     if (response.headersSent) {
         next(error);
     } else {

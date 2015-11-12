@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --ui bdd tests"
+    "test": "mocha --ui bdd tests",
+    "test:api": "mocha --ui bdd tests/api.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "eslint": "^1.9.0",
+    "jsonwebtoken": "^5.4.1",
     "mocha": "^2.3.3",
     "supertest": "^1.1.0"
   }
